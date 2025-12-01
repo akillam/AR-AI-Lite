@@ -75,7 +75,7 @@ Output 2 (Due Soon): "Hi Globex team, Just a friendly note that invoice #102 is 
 
 Tech Stack & Tools
 
-IDE: Cursor. I used Cursor’s AI-native features (Composer) to rapidly scaffold the directory structure and generate the initial boilerplate for the sub-agents. I also used Cursor because I am a non-coder who is learning AI coding tools like Cursor and Replit. 
+IDE: Cursor. I used Cursor’s AI-native features (Composer) to rapidly scaffold the directory structure and generate the initial boilerplate for the sub-agents.
 
 Language: Python 3.12. 
 
@@ -108,3 +108,4 @@ Integration with Resend for email functionality.
 An aging report showing users a quick overview of their receivables and upcoming invoices that will likely be paid. 
 
 Summary Agent: A third sub-agent that reads all the generated actions and writes a "Morning Briefing" for the CFO, highlighting which accounts are most at risk.
+
