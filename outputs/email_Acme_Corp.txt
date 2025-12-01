@@ -1,0 +1,9 @@
+Subject: Overdue Invoice - Acme Corp.
+
+Acme Corp.,
+
+This email is to remind you that invoice payment of $5000.00 was due on November 1, 2024, and is now overdue. Please remit payment as soon as possible to avoid further action.
+
+Prompt payment is appreciated.
+
+The Finance Team
