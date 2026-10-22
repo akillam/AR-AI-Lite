@@ -1,0 +1,4 @@
+# Local credentials; commit only the empty template.
+.env
+.env.*
+!.env.example
