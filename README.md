@@ -109,3 +109,22 @@ An aging report showing users a quick overview of their receivables and upcoming
 
 Summary Agent: A third sub-agent that reads all the generated actions and writes a "Morning Briefing" for the CFO, highlighting which accounts are most at risk.
 
+## Local API key setup
+
+The repository does not provide a working Gemini credential. Copy `.env.example`
+to `.env` only if `.env` does not already exist, then set `GEMINI_API_KEY` privately
+in your local editor or supply it through your runtime environment. Never commit
+the value or paste it into an issue or pull request. The empty template is not a
+working credential.
+
+Existing clones: before pulling the change that removes the formerly tracked
+`.env`, securely back up your local configuration outside the checkout. Git can
+remove an unchanged tracked `.env` during the update. Restore the private file
+afterward; it is now ignored. Do not restore a publicly exposed credential to use
+as a working key.
+
+For replacement, first identify all consumers and create a key restricted to the
+required API. Update each private runtime configuration and verify with synthetic
+inputs before deleting the previous key. Repository cleanup does not erase Git
+history or invalidate copied credentials. Existing SDK/model compatibility must
+be verified separately before returning this older demo to service.
